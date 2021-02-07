@@ -31,7 +31,23 @@ nums = [1,2,3,4,5]
 for num in nums:
     print(num)
 
-    
+# for loop with conditionals
+
+# for loop with a break statement, when you hit the break statement you will
+# break out of the for loop
+for num in nums:
+    if num == 3:
+        print("found!!!")
+        break
+    print(num)
+
+    # for loop with a continue statement, when you hit the continue statement 
+    # the loop will com=ntinue on after
+    for num in nums:
+        if num == 3:
+            print("found!!")
+            continue
+        print(num)
 
 
 
