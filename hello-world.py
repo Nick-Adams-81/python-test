@@ -1,3 +1,5 @@
+
+# BINARY SEARCH #
 def binary_search(sequence, item):
     begin_index = 0
     end_index = len(sequence) - 1
@@ -20,6 +22,20 @@ sequence_a = [2,4,6,8,9,23,25,32]
 item_a = 25
 
 print(binary_search(sequence_a, item_a))
+
+# loops #
+
+# basic array 
+nums = [1,2,3,4,5]
+# basic for loop
+for num in nums:
+    print(num)
+
+    
+
+
+
+
 
 
 
