@@ -17,7 +17,7 @@ def binary_search(sequence, item):
     return None
 
 sequence_a = [2,4,6,8,9,23,25,32]
-item_a = 5
+item_a = 25
 
 print(binary_search(sequence_a, item_a))
 
